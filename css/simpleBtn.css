@@ -1,0 +1,16 @@
+.simpleBtn {
+  padding: 20px 33px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.red {
+  background-color: #FE5050;
+}
+
+.green {
+  background-color: #5ECC76;
+}/*# sourceMappingURL=simpleBtn.css.map */
