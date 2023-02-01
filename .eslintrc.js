@@ -11,6 +11,7 @@ module.exports = {
   },
   plugins: ["react"],
   rules: {
+    "comma-dangle": "off",
     "no-unused-vars": "off",
     "react/prop-types": "off",
     semi: [2, "always"],

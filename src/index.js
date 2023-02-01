@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./assets/fonts/Roboto/Roboto.css";
-import "./app/app.scss";
+import "./app/styles/main.scss";
 
 import App from "./app/App";
 

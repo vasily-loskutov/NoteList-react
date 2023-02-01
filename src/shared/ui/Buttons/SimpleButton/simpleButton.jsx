@@ -1,6 +1,6 @@
 import React from "react";
-import "./simpleButton.scss";
-import "../button.scss";
+import PropTypes from "prop-types";
+
 const SimpleButton = ({ text, bgColor, handleClick }) => {
   return (
     <button className={"btn simpleBtn " + bgColor} onClick={handleClick}>
@@ -8,5 +8,9 @@ const SimpleButton = ({ text, bgColor, handleClick }) => {
     </button>
   );
 };
-
+SimpleButton.propTypes = {
+  text: PropTypes.string,
+  bgColor: PropTypes.string,
+  handleClick: PropTypes.func,
+};
 export default SimpleButton;
