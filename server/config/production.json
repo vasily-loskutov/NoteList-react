@@ -1,0 +1,6 @@
+{
+  "port": 8080,
+  "mongoUri": "mongodb+srv://wasa:wasa2083@cluster0.wgc1zdj.mongodb.net/?retryWrites=true&w=majority",
+  "accessTokenKey": "sdsdfkjfdsjknsdfjn",
+  "refreshTokenKey": "dfshdfshjkesdhjkdsfhjk"
+}
